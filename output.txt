@@ -1,0 +1,225 @@
+[dotenv@17.2.2] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.2.2] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+📖 Reading Excel file: C:\Users\ZainabImran\OneDrive - Medviz Systems\Desktop\Automation-accessment_automation\clients\FMG 09.22.2025.xlsx
+📄 Loaded sheet "page" with 72 rows
+📄 Loaded sheet "GAD 16" with 0 rows
+📄 Loaded sheet "Health assessment" with 1 rows
+📊 Loaded 0 GAD16 patients, 1 HealthAssessment patients, and 72 appointments
+
+🎯 PROCESSING ALL PATIENTS: Sending assessments to all patients...
+🚀 Launching browser for all patients...
+🌐 Navigating to login page...
+✅ Login completed
+🔍 Navigating to patients search page...
+✅ Search page opened successfully
+📖 Reading Excel file: C:\Users\ZainabImran\OneDrive - Medviz Systems\Desktop\Automation-accessment_automation\clients\FMG 09.22.2025.xlsx
+📄 Loaded sheet "page" with 72 rows
+📄 Loaded sheet "GAD 16" with 0 rows
+📄 Loaded sheet "Health assessment" with 1 rows
+
+📄 Processing 1 total patients (0 GAD16 + 1 Health Assessment)...
+
+🔍 Processing patient 1/1 - MRN: 63560 (Type: HEALTH)
+  Provider: "Argilagos, Tamara"
+  Insurance: "BCBS FFS"
+  Account: "FMG CORAL GABLES"
+  Custom ID: "2459"
+
+👤 Processing patient MRN: 63560 (Account: FMG CORAL GABLES)
+🔍 Filtering by Custom ID for account: FMG CORAL GABLES
+🔍 Using Custom ID: 2459 for account: FMG CORAL GABLES
+⚠️ Specific account not found, trying first available row...
+✅ First available account clicked using Custom ID 2459
+✅ Account selection completed successfully
+🔍 Searching for MRN: 63560
+✅ MRN filter filled with: 63560
+⚠️ Multiple patients found for MRN 63560, selecting the first one (2 results)
+✅ Patient selected by double-clicking ISP cell: 63560 (2 results found)
+🔍 Checking for recent Health Assessment...
+🔍 Checking for recent Health Assessment...
+📊 Found content area
+📊 Found Assessments section
+📊 Found assessments table
+📊 Found 10 assessment rows to check
+🔍 Row 1: Checking all 13 columns for status...
+🔍 Row 1, Column 1: "isp
+orders only"
+🔍 Row 1, Column 2: "has claim
+has program
+has intellychart"
+🔍 Row 1, Column 3: "fmg gables"
+🔍 Row 1, Column 4: "-"
+🔍 Row 1, Column 5: "2459"
+🔍 Row 1, Column 6: "63560"
+🔍 Row 1, Column 7: "health assessment"
+🔍 Row 1, Column 8: "09/16/2025"
+🔍 Row 1, Column 9: "09/17/2025"
+🔍 Row 1, Column 10: "09/16/2025"
+🔍 Row 1, Column 11: "isp nine"
+🔍 Row 1, Column 12: "e-transfer"
+✅ Row 1: Found status "e-transfer" in column 12
+🔍 Row 1 final status: "e-transfer"
+📅 Found assessment (e-transfer) on: 09/16/2025
+🔍 Row 2: Checking all 13 columns for status...
+🔍 Row 2, Column 1: "isp
+orders only"
+🔍 Row 2, Column 2: "-"
+🔍 Row 2, Column 3: "fmg gables"
+🔍 Row 2, Column 4: "-"
+🔍 Row 2, Column 5: "2459"
+🔍 Row 2, Column 6: "63560"
+🔍 Row 2, Column 7: "phq-gad16 health assessment"
+🔍 Row 2, Column 8: "06/06/2025"
+🔍 Row 2, Column 9: "06/06/2025"
+🔍 Row 2, Column 10: "06/06/2025"
+🔍 Row 2, Column 11: "isp twelve"
+🔍 Row 2, Column 12: "invited"
+✅ Row 2: Found status "invited" in column 12
+🔍 Row 2 final status: "invited"
+🔍 Row 3: Checking all 13 columns for status...
+🔍 Row 3, Column 1: "isp
+orders only"
+🔍 Row 3, Column 2: "-"
+🔍 Row 3, Column 3: "fmg gables"
+🔍 Row 3, Column 4: "-"
+🔍 Row 3, Column 5: "2459"
+🔍 Row 3, Column 6: "63560"
+🔍 Row 3, Column 7: "medical nutrition assessment"
+🔍 Row 3, Column 8: "06/06/2025"
+🔍 Row 3, Column 9: "06/06/2025"
+🔍 Row 3, Column 10: "06/06/2025"
+🔍 Row 3, Column 11: "isp twelve"
+🔍 Row 3, Column 12: "invited"
+✅ Row 3: Found status "invited" in column 12
+🔍 Row 3 final status: "invited"
+🔍 Row 4: Checking all 13 columns for status...
+🔍 Row 4, Column 1: "isp
+orders only"
+🔍 Row 4, Column 2: "-"
+🔍 Row 4, Column 3: "fmg gables"
+🔍 Row 4, Column 4: "-"
+🔍 Row 4, Column 5: "2459"
+🔍 Row 4, Column 6: "63560"
+🔍 Row 4, Column 7: "medical nutrition assessment"
+🔍 Row 4, Column 8: "05/15/2025"
+🔍 Row 4, Column 9: "05/16/2025"
+🔍 Row 4, Column 10: "05/15/2025"
+🔍 Row 4, Column 11: "isp nine"
+🔍 Row 4, Column 12: "no show"
+🔍 Row 4, Column 13: ""
+🔍 Row 4 final status: ""
+🔍 Row 5: Checking all 13 columns for status...
+🔍 Row 5, Column 1: "isp
+orders only"
+🔍 Row 5, Column 2: "-"
+🔍 Row 5, Column 3: "fmg gables"
+🔍 Row 5, Column 4: "-"
+🔍 Row 5, Column 5: "2459"
+🔍 Row 5, Column 6: "63560"
+🔍 Row 5, Column 7: "phq-gad16 health assessment"
+🔍 Row 5, Column 8: "05/15/2025"
+🔍 Row 5, Column 9: "05/16/2025"
+🔍 Row 5, Column 10: "05/15/2025"
+🔍 Row 5, Column 11: "isp nine"
+🔍 Row 5, Column 12: "no show"
+🔍 Row 5, Column 13: ""
+🔍 Row 5 final status: ""
+🔍 Row 6: Checking all 13 columns for status...
+🔍 Row 6, Column 1: "isp
+orders only"
+🔍 Row 6, Column 2: "has claim
+has program"
+🔍 Row 6, Column 3: "fmg gables"
+🔍 Row 6, Column 4: "-"
+🔍 Row 6, Column 5: "2459"
+🔍 Row 6, Column 6: "63560"
+🔍 Row 6, Column 7: "phq-gad16 health assessment"
+🔍 Row 6, Column 8: "05/01/2025"
+🔍 Row 6, Column 9: "05/02/2025"
+🔍 Row 6, Column 10: "05/01/2025"
+🔍 Row 6, Column 11: "isp seven"
+🔍 Row 6, Column 12: "completed"
+✅ Row 6: Found status "completed" in column 12
+🔍 Row 6 final status: "completed"
+📅 Found assessment (completed) on: 05/01/2025
+🔍 Row 7: Checking all 13 columns for status...
+🔍 Row 7, Column 1: "isp
+orders only"
+🔍 Row 7, Column 2: "has claim
+has program"
+🔍 Row 7, Column 3: "fmg gables"
+🔍 Row 7, Column 4: "-"
+🔍 Row 7, Column 5: "2459"
+🔍 Row 7, Column 6: "63560"
+🔍 Row 7, Column 7: "phq-gad16 health assessment"
+🔍 Row 7, Column 8: "04/10/2025"
+🔍 Row 7, Column 9: "04/11/2025"
+🔍 Row 7, Column 10: "04/11/2025"
+🔍 Row 7, Column 11: "isp twelve"
+🔍 Row 7, Column 12: "completed"
+✅ Row 7: Found status "completed" in column 12
+🔍 Row 7 final status: "completed"
+📅 Found assessment (completed) on: 04/10/2025
+🔍 Row 8: Checking all 13 columns for status...
+🔍 Row 8, Column 1: "isp
+orders only"
+🔍 Row 8, Column 2: "has claim
+has program"
+🔍 Row 8, Column 3: "fmg gables"
+🔍 Row 8, Column 4: "-"
+🔍 Row 8, Column 5: "2459"
+🔍 Row 8, Column 6: "63560"
+🔍 Row 8, Column 7: "health assessment"
+🔍 Row 8, Column 8: "04/10/2025"
+🔍 Row 8, Column 9: "04/11/2025"
+🔍 Row 8, Column 10: "04/11/2025"
+🔍 Row 8, Column 11: "isp twelve"
+🔍 Row 8, Column 12: "completed"
+✅ Row 8: Found status "completed" in column 12
+🔍 Row 8 final status: "completed"
+📅 Found assessment (completed) on: 04/10/2025
+🔍 Row 9: Checking all 13 columns for status...
+🔍 Row 9, Column 1: "isp
+orders only"
+🔍 Row 9, Column 2: "-"
+🔍 Row 9, Column 3: "fmg gables"
+🔍 Row 9, Column 4: "-"
+🔍 Row 9, Column 5: "2459"
+🔍 Row 9, Column 6: "63560"
+🔍 Row 9, Column 7: "phq-gad16 health assessment"
+🔍 Row 9, Column 8: "03/27/2025"
+🔍 Row 9, Column 9: "03/28/2025"
+🔍 Row 9, Column 10: "03/27/2025"
+🔍 Row 9, Column 11: "isp twelve"
+🔍 Row 9, Column 12: "in progress"
+🔍 Row 9, Column 13: ""
+🔍 Row 9 final status: ""
+🔍 Row 10: Checking all 13 columns for status...
+🔍 Row 10, Column 1: "isp
+orders only"
+🔍 Row 10, Column 2: "-"
+🔍 Row 10, Column 3: "fmg gables"
+🔍 Row 10, Column 4: "-"
+🔍 Row 10, Column 5: "2459"
+🔍 Row 10, Column 6: "63560"
+🔍 Row 10, Column 7: "health assessment"
+🔍 Row 10, Column 8: "03/27/2025"
+🔍 Row 10, Column 9: "03/28/2025"
+🔍 Row 10, Column 10: "03/27/2025"
+🔍 Row 10, Column 11: "isp twelve"
+🔍 Row 10, Column 12: "invited"
+✅ Row 10: Found status "invited" in column 12
+🔍 Row 10 final status: "invited"
+📅 Latest assessment (Completed/Pending Review/E-Transfer): Mon Sep 15 2025
+📅 Last completed assessment: Mon Sep 15 2025
+📅 30 days ago: Tue Sep 09 2025
+✅ Recent assessment found within 30 days - skipping Health Assessment
+📝 Updating Excel: Health assessment - MRN: 63560 -> Status: Already
+✅ Updated Health assessment - Row 2: Status = Already
+📝 Updated Excel: Health assessment - MRN: 63560 -> Status: Already
+
+🎉 All patients processed successfully!
+⏳ Closing browser...
+❌ Page closed unexpectedly
+
+🎉 All patients processed successfully!
