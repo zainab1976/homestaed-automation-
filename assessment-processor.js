@@ -1182,10 +1182,10 @@ async function fillAppointmentForm(page, patientData) {
     optionFound = true;
   }
   
-  // Schedule for Later functionality
-  await page.getByLabel('Schedule for Later').check();
-  await page.getByPlaceholder('MM/DD/YYYY').nth(1).click();
-  await page.getByPlaceholder('MM/DD/YYYY').nth(1).fill(getCurrentDate());
+  // Schedule for Later functionality - COMMENTED OUT: Now sending directly
+  // await page.getByLabel('Schedule for Later').check();
+  // await page.getByPlaceholder('MM/DD/YYYY').nth(1).click();
+  // await page.getByPlaceholder('MM/DD/YYYY').nth(1).fill(getCurrentDate());
   
   console.log('✅ Appointment form filled');
 }
